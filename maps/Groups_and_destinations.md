@@ -49,3 +49,21 @@ We visited:
 * wikipedia.org
 * noaa.gov
 * ftp.nz.debian.org
+
+## Bayer
+
+Bayer is Jocelyn
+
+I visited:
+
+*tumblr.com
+*fcc.gov
+*pbs.org
+*ul.ie
+*tcd.ie
+*unilag.edu.ng
+*umsa.bo
+*usap.gov
+*uwa.edu.au
+*goodreads.com
+*voltronlegendarydefender.com
