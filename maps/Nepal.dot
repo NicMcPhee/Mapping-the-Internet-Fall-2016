@@ -1,0 +1,25 @@
+digraph network {
+
+// traceroute to ku.edu.np (116.90.239.10), 60 hops max, 60 byte packets
+"Dungeon" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)";
+"mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)" -> "morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)";
+"morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)" -> "172.25.0.6 (172.25.0.6)";
+"172.25.0.6 (172.25.0.6)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.1.17 (172.25.1.17)";
+"172.25.1.17 (172.25.1.17)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)";
+"telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "ae6-545.bar1.Minneapolis2.Level3.net (4.15.186.13)";
+"ae6-545.bar1.Minneapolis2.Level3.net (4.15.186.13)" -> "ae-2-70.edge1.LosAngeles6.Level3.net (4.69.144.80)";
+"ae-2-70.edge1.LosAngeles6.Level3.net (4.69.144.80)" -> "ae-3-80.edge1.LosAngeles6.Level3.net (4.69.144.144)";
+"ae-3-80.edge1.LosAngeles6.Level3.net (4.69.144.144)" -> "BHARTI-AIRT.edge1.LosAngeles6.Level3.net (4.26.0.18)";
+"BHARTI-AIRT.edge1.LosAngeles6.Level3.net (4.26.0.18)" -> "182.79.234.197 (182.79.234.197)";
+"182.79.234.197 (182.79.234.197)" -> "aes-static-190.1.22.125.airtel.in (125.22.1.190)";
+"aes-static-190.1.22.125.airtel.in (125.22.1.190)" -> "116.90.227.1 (116.90.227.1)";
+"116.90.227.1 (116.90.227.1)" -> "116.90.232.18 (116.90.232.18)";
+"116.90.232.18 (116.90.232.18)" -> "116.90.239.10 (116.90.239.10)";
+"116.90.239.10 (116.90.239.10)" -> "ku.edu.np (116.90.239.10)";
+}

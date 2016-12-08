@@ -15,3 +15,37 @@ We visited:
 * one.or.the.other
 * stuff.and.nonsense
 * etc.etc.etc.
+
+## Antimicrobial Resistance
+
+Elsa Browning and Kyle Hakala
+
+We visited:
+
+* google.com
+* petfinder.com
+* haka.la
+* statephone.utah.gov
+* pbs.org
+* firstlayerhealth.com
+* devshawn.com
+* haiderstats.com
+* mayoclinic.com
+* evostar.org
+* www.litzin.gr
+* meh.com
+* xkcd.com
+
+## ZdwKgTYvB
+
+ZdwKgTYvB is Laverne and Travis
+
+We visited:
+
+* viking.lib.mn.us
+* ftp.is.debian.org
+* pagekite.net
+* g2a.com
+* wikipedia.org
+* noaa.gov
+* ftp.nz.debian.org
