@@ -35,3 +35,17 @@ We visited:
 * www.litzin.gr
 * meh.com
 * xkcd.com
+
+## ZdwKgTYvB
+
+ZdwKgTYvB is Laverne and Travis
+
+We visited:
+
+* viking.lib.mn.us
+* ftp.is.debian.org
+* pagekite.net
+* g2a.com
+* wikipedia.org
+* noaa.gov
+* ftp.nz.debian.org
