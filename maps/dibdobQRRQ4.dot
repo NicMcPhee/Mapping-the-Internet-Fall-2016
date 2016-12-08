@@ -1,0 +1,25 @@
+digraph network {
+
+// traceroute to paizo.com (70.35.123.53), 60 hops max, 60 byte packets
+"Dungeon" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)";
+"mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)" -> "morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)";
+"morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)" -> "172.25.0.6 (172.25.0.6)";
+"172.25.0.6 (172.25.0.6)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.1.17 (172.25.1.17)";
+"172.25.1.17 (172.25.1.17)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)";
+"telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "sdn-sw-chic-v1260.northernlights.gigapop.net (146.57.255.247)";
+"sdn-sw-chic-v1260.northernlights.gigapop.net (146.57.255.247)" -> "xe-4-0-3.0.rtsw.seat.net.internet2.edu (64.57.20.168)";
+"xe-4-0-3.0.rtsw.seat.net.internet2.edu (64.57.20.168)" -> "agg2-sea-a-t3-1.bb.spectrumnet.us (174.127.140.134)";
+"agg2-sea-a-t3-1.bb.spectrumnet.us (174.127.140.134)" -> "isomedia-SEA-10000M.demarc.spectrumnet.us (216.243.31.250)";
+"isomedia-SEA-10000M.demarc.spectrumnet.us (216.243.31.250)" -> "sea20-core2.isomedia.com (66.114.134.141)";
+"sea20-core2.isomedia.com (66.114.134.141)" -> "t1-2.cr01.sea.opticfusion.net (207.115.66.226)";
+"t1-2.cr01.sea.opticfusion.net (207.115.66.226)" -> "te1-1.cr01.tac.opticfusion.net (209.147.112.81)";
+"te1-1.cr01.tac.opticfusion.net (209.147.112.81)" -> "gi6-1.dr03.tac.opticfusion.net (209.147.112.18)";
+"gi6-1.dr03.tac.opticfusion.net (209.147.112.18)" -> "paizo.com (70.35.123.53)";
+}
