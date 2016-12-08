@@ -1,0 +1,24 @@
+digraph network {
+
+// traceroute to www.meadwildlife.org (206.176.210.190), 60 hops max, 60 byte packets
+"Dungeon" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)";
+"mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)" -> "morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)";
+"morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)" -> "172.25.0.6 (172.25.0.6)";
+"172.25.0.6 (172.25.0.6)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.1.17 (172.25.1.17)";
+"172.25.1.17 (172.25.1.17)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)";
+"telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "sdn-sw-chic-v1260.northernlights.gigapop.net (146.57.255.247)";
+"sdn-sw-chic-v1260.northernlights.gigapop.net (146.57.255.247)" -> "ae-0.0.rtr.eqny.net.internet2.edu (64.57.20.32)";
+"ae-0.0.rtr.eqny.net.internet2.edu (64.57.20.32)" -> "po3-40G.ar5.CHI1.gblx.net (67.17.104.38)";
+"po3-40G.ar5.CHI1.gblx.net (67.17.104.38)" -> "net-lec-llc.tengigabitethernet2-2.ar5.chi1.gblx.net (159.63.53.106)";
+"net-lec-llc.tengigabitethernet2-2.ar5.chi1.gblx.net (159.63.53.106)" -> "3.206-40-96.netnet.net (206.40.96.3)";
+"3.206-40-96.netnet.net (206.40.96.3)" -> "138.206-40-116.netnet.net (206.40.116.138)";
+"138.206-40-116.netnet.net (206.40.116.138)" -> "wirez2.mywebsitecontrolpanel.com (206.176.210.190)";
+"wirez2.mywebsitecontrolpanel.com (206.176.210.190)" -> "www.meadwildlife.org (206.176.210.190)";
+}
