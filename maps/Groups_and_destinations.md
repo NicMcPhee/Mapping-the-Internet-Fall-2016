@@ -15,3 +15,20 @@ We visited:
 * one.or.the.other
 * stuff.and.nonsense
 * etc.etc.etc.
+
+---
+
+## ZdwKgTYvB
+
+ZdwKgTYvB is Laverne and Travis
+
+We visited:
+
+* viking.lib.mn.us 
+* ftp.is.debian.org 
+* pagekite.net 
+* g2a.com 
+* wikipedia.org 
+* noaa.gov 
+* ftp.nz.debian.org
+
