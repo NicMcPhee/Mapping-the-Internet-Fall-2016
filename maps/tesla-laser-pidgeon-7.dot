@@ -1,0 +1,20 @@
+digraph network {
+
+// traceroute to 216.81.59.173 (216.81.59.173), 60 hops max, 60 byte packets
+"Dungeon" -> "mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)";
+"mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)" -> "morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)";
+"morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)" -> "172.25.0.6 (172.25.0.6)";
+"172.25.0.6 (172.25.0.6)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.1.17 (172.25.1.17)";
+"172.25.1.17 (172.25.1.17)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)";
+"telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "AS6939.micemn.net (206.108.255.52)";
+"AS6939.micemn.net (206.108.255.52)" -> "100ge10-1.core2.chi1.he.net (184.105.64.149)";
+"100ge10-1.core2.chi1.he.net (184.105.64.149)" -> "10ge3-16.core1.atl1.he.net (184.105.81.202)";
+"10ge3-16.core1.atl1.he.net (184.105.81.202)" -> "216.66.0.26 (216.66.0.26)";
+"216.66.0.26 (216.66.0.26)" -> "216.81.59.173 (216.81.59.173)";
+}
