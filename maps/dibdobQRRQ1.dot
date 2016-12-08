@@ -1,0 +1,28 @@
+digraph network {
+
+// traceroute to www.newegg.com (216.52.208.160), 60 hops max, 60 byte packets
+"Dungeon" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)";
+"mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)" -> "morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)";
+"morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)" -> "172.25.0.6 (172.25.0.6)";
+"172.25.0.6 (172.25.0.6)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.1.17 (172.25.1.17)";
+"172.25.1.17 (172.25.1.17)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)";
+"telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "sdn-sw-chic-v1260.northernlights.gigapop.net (146.57.255.247)";
+"sdn-sw-chic-v1260.northernlights.gigapop.net (146.57.255.247)" -> "162.252.69.150 (162.252.69.150)";
+"162.252.69.150 (162.252.69.150)" -> "hu-2-0-0-4-cr02.350ecermak.il.ibone.comcast.net (68.86.85.1)";
+"hu-2-0-0-4-cr02.350ecermak.il.ibone.comcast.net (68.86.85.1)" -> "be-10517-cr02.denver.co.ibone.comcast.net (68.86.85.170)";
+"be-10517-cr02.denver.co.ibone.comcast.net (68.86.85.170)" -> "be-11719-cr01.1601milehigh.co.ibone.comcast.net (68.86.86.78)";
+"be-11719-cr01.1601milehigh.co.ibone.comcast.net (68.86.86.78)" -> "be-10919-cr01.sunnyvale.ca.ibone.comcast.net (68.86.85.153)";
+"be-10919-cr01.sunnyvale.ca.ibone.comcast.net (68.86.85.153)" -> "be-10915-cr02.losangeles.ca.ibone.comcast.net (68.86.86.98)";
+"be-10915-cr02.losangeles.ca.ibone.comcast.net (68.86.86.98)" -> "be-11599-pe01.losangeles.ca.ibone.comcast.net (68.86.84.194)";
+"be-11599-pe01.losangeles.ca.ibone.comcast.net (68.86.84.194)" -> "96-87-8-74-static.hfc.comcastbusiness.net (96.87.8.74)";
+"96-87-8-74-static.hfc.comcastbusiness.net (96.87.8.74)" -> "border2.po2-40g-bbnet2.lax010.pnap.net (216.52.255.93)";
+"border2.po2-40g-bbnet2.lax010.pnap.net (216.52.255.93)" -> "abs-13.lax010.pnap.net (216.52.220.234)";
+"abs-13.lax010.pnap.net (216.52.220.234)" -> "www.newegg.com (216.52.208.160)";
+}
