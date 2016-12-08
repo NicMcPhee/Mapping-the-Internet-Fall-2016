@@ -1,0 +1,48 @@
+digraph network {
+
+// traceroute to bad.horse (162.252.205.157), 60 hops max, 60 byte packets
+"Dungeon" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)";
+"mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)" -> "172.25.0.6 (172.25.0.6)";
+"172.25.0.6 (172.25.0.6)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.1.17 (172.25.1.17)";
+"172.25.1.17 (172.25.1.17)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-1-be5.2002.northernlights.gigapop.net (146.57.255.6)";
+"telecomb-gr-01-1-be5.2002.northernlights.gigapop.net (146.57.255.6)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "AS7753.micemn.net (206.108.255.3)";
+"AS7753.micemn.net (206.108.255.3)" -> "c4500-1.mpls.iphouse.net (216.250.189.170)";
+"c4500-1.mpls.iphouse.net (216.250.189.170)" -> "egw-iphouse.mplsc1.mn.us.sn11.net (216.243.189.213)";
+"egw-iphouse.mplsc1.mn.us.sn11.net (216.243.189.213)" -> "t00.nycmc1.ny.us.sn11.net (162.252.204.66)";
+"t00.nycmc1.ny.us.sn11.net (162.252.204.66)" -> "bad.horse (162.252.205.130)";
+"bad.horse (162.252.205.130)" -> "bad.horse (162.252.205.131)";
+"bad.horse (162.252.205.131)" -> "bad.horse (162.252.205.132)";
+"bad.horse (162.252.205.132)" -> "bad.horse (162.252.205.133)";
+"bad.horse (162.252.205.133)" -> "he.rides.across.the.nation (162.252.205.134)";
+"he.rides.across.the.nation (162.252.205.134)" -> "the.thoroughbred.of.sin (162.252.205.135)";
+"the.thoroughbred.of.sin (162.252.205.135)" -> "he.got.the.application (162.252.205.136)";
+"he.got.the.application (162.252.205.136)" -> "that.you.just.sent.in (162.252.205.137)";
+"that.you.just.sent.in (162.252.205.137)" -> "it.needs.evaluation (162.252.205.138)";
+"it.needs.evaluation (162.252.205.138)" -> "so.let.the.games.begin (162.252.205.139)";
+"so.let.the.games.begin (162.252.205.139)" -> "a.heinous.crime (162.252.205.140)";
+"a.heinous.crime (162.252.205.140)" -> "a.show.of.force (162.252.205.141)";
+"a.show.of.force (162.252.205.141)" -> "a.murder.would.be.nice.of.course (162.252.205.142)";
+"a.murder.would.be.nice.of.course (162.252.205.142)" -> "bad.horse (162.252.205.143)";
+"bad.horse (162.252.205.143)" -> "bad.horse (162.252.205.144)";
+"bad.horse (162.252.205.144)" -> "bad.horse (162.252.205.145)";
+"bad.horse (162.252.205.145)" -> "he-s.bad (162.252.205.146)";
+"he-s.bad (162.252.205.146)" -> "the.evil.league.of.evil (162.252.205.147)";
+"the.evil.league.of.evil (162.252.205.147)" -> "is.watching.so.beware (162.252.205.148)";
+"is.watching.so.beware (162.252.205.148)" -> "the.grade.that.you.receive (162.252.205.149)";
+"the.grade.that.you.receive (162.252.205.149)" -> "will.be.your.last.we.swear (162.252.205.150)";
+"will.be.your.last.we.swear (162.252.205.150)" -> "so.make.the.bad.horse.gleeful (162.252.205.151)";
+"so.make.the.bad.horse.gleeful (162.252.205.151)" -> "or.he-ll.make.you.his.mare (162.252.205.152)";
+"or.he-ll.make.you.his.mare (162.252.205.152)" -> "o_o (162.252.205.153)";
+"o_o (162.252.205.153)" -> "you-re.saddled.up (162.252.205.154)";
+"you-re.saddled.up (162.252.205.154)" -> "there-s.no.recourse (162.252.205.155)";
+"there-s.no.recourse (162.252.205.155)" -> "it-s.hi-ho.silver (162.252.205.156)";
+"it-s.hi-ho.silver (162.252.205.156)" -> "signed.bad.horse (162.252.205.157)";
+"signed.bad.horse (162.252.205.157)" -> "bad.horse (162.252.205.157)";
+}
