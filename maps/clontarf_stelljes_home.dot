@@ -1,0 +1,20 @@
+digraph network {
+
+// traceroute to home.stellj.es (66.60.196.128), 60 hops max, 60 byte packets
+"Dungeon" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)";
+"mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)" -> "172.25.0.6 (172.25.0.6)";
+"172.25.0.6 (172.25.0.6)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.1.17 (172.25.1.17)";
+"172.25.1.17 (172.25.1.17)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-1-be5.2002.northernlights.gigapop.net (146.57.255.6)";
+"telecomb-gr-01-1-be5.2002.northernlights.gigapop.net (146.57.255.6)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "AS25852.micemn.net (206.108.255.106)";
+"AS25852.micemn.net (206.108.255.106)" -> "66-103-160-250.hutchtel.net (66.103.160.250)";
+"66-103-160-250.hutchtel.net (66.103.160.250)" -> "66-60-192-209.newulmtel.net (66.60.192.209)";
+"66-60-192-209.newulmtel.net (66.60.192.209)" -> "66-60-194-102.newulmtel.net (66.60.194.102)";
+"66-60-194-102.newulmtel.net (66.60.194.102)" -> "home.stellj.es (66.60.196.128)";
+}
