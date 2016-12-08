@@ -1,0 +1,25 @@
+digraph network {
+
+// traceroute to gain.fas.usda.gov (162.79.22.174), 60 hops max, 60 byte packets
+"Dungeon" -> "starship33.morris.umn.edu (146.57.33.254)";
+"starship33.morris.umn.edu (146.57.33.254)" -> "mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)";
+"mrs-cb-01-v252.ggnet.umn.edu (146.57.237.85)" -> "morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)";
+"morrisswhub-shbb-gi-1-0-20.r.state.mn.us (192.168.210.194)" -> "172.25.0.6 (172.25.0.6)";
+"172.25.0.6 (172.25.0.6)" -> "172.25.0.10 (172.25.0.10)";
+"172.25.0.10 (172.25.0.10)" -> "172.25.1.17 (172.25.1.17)";
+"172.25.1.17 (172.25.1.17)" -> "172.25.0.38 (172.25.0.38)";
+"172.25.0.38 (172.25.0.38)" -> "telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)";
+"telecomb-bn-02-v3230.ggnet.umn.edu (146.57.238.49)" -> "telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)";
+"telecomb-br-02-v3239.ggnet.umn.edu (146.57.238.50)" -> "telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)";
+"telecomb-br-01-te-4-2.ggnet.umn.edu (192.35.86.29)" -> "telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)";
+"telecomb-gr-01-lo0-be5-2001.northernlights.gigapop.net (146.57.255.2)" -> "mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)";
+"mtc-gr-01-1-hu-0-9-0-0.1.northernlights.gigapop.net (146.57.252.193)" -> "v1212.core1.msp1.he.net (184.105.19.9)";
+"v1212.core1.msp1.he.net (184.105.19.9)" -> "100ge7-1.core1.chi1.he.net (184.105.223.177)";
+"100ge7-1.core1.chi1.he.net (184.105.223.177)" -> "att-internet4-as7018.10gigabitethernet5.switch2.chi1.he.net (216.66.78.118)";
+"att-internet4-as7018.10gigabitethernet5.switch2.chi1.he.net (216.66.78.118)" -> "cr1.cgcil.ip.att.net (12.122.133.106)";
+"cr1.cgcil.ip.att.net (12.122.133.106)" -> "cr2.wswdc.ip.att.net (12.122.18.22)";
+"cr2.wswdc.ip.att.net (12.122.18.22)" -> "gar18.wswdc.ip.att.net (12.122.113.101)";
+"gar18.wswdc.ip.att.net (12.122.113.101)" -> "162.79.148.2 (162.79.148.2)";
+"162.79.148.2 (162.79.148.2)" -> "162.79.22.174 (162.79.22.174)";
+"162.79.22.174 (162.79.22.174)" -> "gain.fas.usda.gov (162.79.22.174)";
+}
